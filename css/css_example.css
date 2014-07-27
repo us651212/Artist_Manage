@@ -1,0 +1,36 @@
+
+
+.All_menu{
+	margin-top: 20px;
+	display:inline-block;
+}
+.Home{
+	display:inline-block;
+	position:relative;
+}
+.nav{
+	display:inline-block;
+	position:relative;
+	width:980px;
+	margin:auto;
+	margin-left:65.5px;
+	margin-right:180.5px;
+	z-index:10;
+	border-radius:4px;
+	font: 12px/18px "Arial";
+}
+.nav_menu{
+	display:inline-block;  /* 메뉴창을 inline-block을 display로 -한줄로나열  */
+	border-radius:4px 0 0 4px;
+	border-width:0 2px 0 0;
+	display:table;
+}
+.nav_menu> li{
+	display:inline-block;
+	border:solid 1px black;
+	height: 36px;
+	width: 106px;
+	text-align:center;
+	vertical-align: middle;
+}
+/*메뉴 창을 인라인으로 만들어야한다!!*/
