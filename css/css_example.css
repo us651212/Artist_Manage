@@ -1,36 +1,59 @@
-
-
+div{
+	overflow:hidden;
+}
 .All_menu{
-	margin-top: 20px;
 	display:inline-block;
 }
-.Home{
-	display:inline-block;
-	position:relative;
+.header_image{
+	float:left;
+	overflow:hidden;
 }
-.nav{
-	display:inline-block;
-	position:relative;
-	width:980px;
-	margin:auto;
-	margin-left:65.5px;
-	margin-right:180.5px;
-	z-index:10;
-	border-radius:4px;
-	font: 12px/18px "Arial";
+nav{
+	overflow:hidden;
 }
-.nav_menu{
-	display:inline-block;  /* 메뉴창을 inline-block을 display로 -한줄로나열  */
-	border-radius:4px 0 0 4px;
-	border-width:0 2px 0 0;
-	display:table;
+body{
+	background-image:url(../img/banksy.gif);
+	background-position: 50% 50%;
+	background-size:1500px auto;
+	background-repeat: no-repeat; 
+	z-index:5;
 }
-.nav_menu> li{
-	display:inline-block;
-	border:solid 1px black;
-	height: 36px;
-	width: 106px;
-	text-align:center;
+.nav-pills{
 	vertical-align: middle;
 }
-/*메뉴 창을 인라인으로 만들어야한다!!*/
+#homefooter{
+	position:absolute;
+	z-index:1;
+	right:0;
+	bottom:0;
+	left:0;
+	margin 0;
+	min-width:980px;
+	width:100%;
+	height:90px;
+	padding: 0;
+	color:#fff;   /*#6e6e6e;*/
+	font-size:0.8334em;
+	line-height:1.2;
+	text-align:center;
+	zoom:1;
+
+}
+.wrapper{
+	margin: 0 auto;
+	width:980px;
+	padding:1em 0 2.6em;
+}
+#homefooter .left {
+float: left;
+clear: both;
+width: 49%;
+padding-top: 1.5em;
+text-align: left;
+}
+
+#homefooter .right {
+float: right;
+width: 51%;
+padding-top: 1.5em;
+text-align: right;
